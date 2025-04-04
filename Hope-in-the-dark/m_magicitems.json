@@ -39,10 +39,19 @@
     "initial_charges": 500,
     "max_charges": 500,
     "charges_per_use": 1,
-    "ammo_type": "crystallized_mana",
     "symbol": ";",
-    "color": "yellow",
-    "use_action": [ "CATFOOD", "DOGFOOD", "BIRDFOOD", "CATTLEFODDER" ]
+    "color": "yellow"
+  },
+  {
+    "id": "magic_feed",
+    "type": "COMESTIBLE",
+    "looks_like": "magic_bridle",
+    "category": "tools_farming",
+    "copy-from": "cattlefodder",
+    "name": { "str": "magic horse feed" },
+    "material": [ "meguca_hope" ],
+    "use_action": [ "PETFOOD" ],
+    "petfood": [ "CATFOOD", "DINOFOOD_B", "DOGFOOD", "DINOFOOD_A", "CATTLEFOOD", "DINOFOOD_C" ]
   },
   {
     "id": "medukarepair",

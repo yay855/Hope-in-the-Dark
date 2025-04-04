@@ -23,16 +23,10 @@
     "ranged_damage": 2,
     "range": 20,
     "dispersion": 380,
-    "sight_dispersion": 200,
-    "aim_speed": 1,
-    "recoil": 10,
     "durability": 8,
-    "blackpowder_tolerance": 8,
-    "min_cycle_recoil": 350,
-    "burst": 5,
     "clip_size": 500,
-    "ups_charges": 0,
-    "reload": 3000
+    "reload": 3000,
+    "modes": [ [ "DEFAULT", "single shot", 1 ], [ "burst", "burst", 5 ] ]
   },
   {
     "id": "fake_machinemaiden_halberd",

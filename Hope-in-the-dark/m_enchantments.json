@@ -3,13 +3,20 @@
     "type": "enchantment",
     "id": "hadessystem",
     "condition": "ACTIVE",
-	"emitter": "emit_hot_air4_blast",
+    "emitter": "emit_hot_air4_blast",
     "values": [
       { "value": "STRENGTH", "multiply": 3.0, "add": 0 },
       { "value": "DEXTERITY", "multiply": 1.0, "add": 0 },
       { "value": "PERCEPTION", "multiply": 3.0, "add": 0 },
-	  { "value": "FATIGUE", "multiply": 10.0, "add": 0 },
+      { "value": "FATIGUE", "multiply": 10.0, "add": 0 },
       { "value": "SPEED", "multiply": 2.0, "add": 0 }
     ]
+  },
+  {
+    "id": "ench_ground_freeze",
+    "type": "enchantment",
+    "has": "WORN",
+    "ench_effects": [ { "effect": "enchant_ground_freeze", "intensity": 1 } ],
+    "values": [ { "value": "MOVE_COST", "multiply": -0.5 } ]
   }
 ]
