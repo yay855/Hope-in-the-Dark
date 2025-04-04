@@ -49,7 +49,6 @@
     "category": "tools_farming",
     "copy-from": "cattlefodder",
     "name": { "str": "magic horse feed" },
-    "material": [ "meguca_hope" ],
     "use_action": [ "PETFOOD" ],
     "petfood": [ "CATFOOD", "DINOFOOD_B", "DOGFOOD", "DINOFOOD_A", "CATTLEFOOD", "DINOFOOD_C" ]
   },

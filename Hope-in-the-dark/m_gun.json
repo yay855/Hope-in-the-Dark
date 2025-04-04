@@ -66,7 +66,7 @@
     "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ],
     "clip_size": 12,
     "reload": 100,
-    "flags": [ "MAGIC_FOCUS", "NEVER_JAMS", "RELOAD_EJECT", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "MAGIC_FOCUS", "NEVER_JAMS", "RELOAD_EJECT", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "use_action": {
       "type": "transform",
       "msg": "You twirl the twin derringers as they change colours then flick them to the ready position.",
@@ -97,7 +97,7 @@
     "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ],
     "clip_size": 12,
     "reload": 100,
-    "flags": [ "MAGIC_FOCUS", "NEVER_JAMS", "RELOAD_EJECT", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "flags": [ "MAGIC_FOCUS", "NEVER_JAMS", "RELOAD_EJECT", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "use_action": {
       "type": "transform",
       "msg": "You twirl the twin derringers as they change colours then flick them to the ready position.",
