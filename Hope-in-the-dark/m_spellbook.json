@@ -100,5 +100,20 @@
     "symbol": "?",
     "color": "light_red",
     "use_action": { "type": "learn_spell", "spells": [ "rr_horsecall", "altus_aqua_crystal" ] }
+  },
+  {
+    "id": "guntrickbook",
+    "type": "GENERIC",
+    "looks_like": "child_book",
+    "category": "spellbooks",
+    "name": { "str": "Gun Trick's Notes", "str_pl": "Gun Trick's Notes" },
+    "//": "meduka book",
+    "description": "A small notepad covered in small burn marks and black stains.  It seems to contain some details on magic ammunition and how to convert mundane firearms to use it.",
+    "weight": "585 g",
+    "volume": "250 ml",
+    "price": 5000,
+    "symbol": "?",
+    "color": "light_red",
+    "use_action": { "type": "learn_spell", "spells": [ "guntrick_ammospecial", "guntrick_ammofire", "guntrick_ammoblast" ] }
   }
 ]

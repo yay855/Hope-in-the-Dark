@@ -42,7 +42,7 @@
     "stack_size": 40,
     "ammo_type": "guntrick_ammo",
     "range": 13,
-    "damage": { "damage_type": "heat", "amount": 10, "armor_penetration": 40 },
+    "damage": { "damage_type": "heat", "amount": 30 },
     "dispersion": 330,
     "recoil": 250,
     "effects": [ "INCENDIARY", "IGNITE", "FLAME" ]

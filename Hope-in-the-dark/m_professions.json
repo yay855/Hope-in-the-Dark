@@ -2,7 +2,7 @@
   {
     "type": "profession",
     "id": "meguca_pink",
-    "name": "Prisma Pink",
+    "name": "Magical Prisma Pink",
     "description": "The world has fallen. Darkness and despair rules the land, but hope yet remains. Grasp your fate in your hands, Prisma Pink! As long as you live, hope will never die!",
     "points": 3,
     "spells": [
@@ -38,7 +38,7 @@
   {
     "type": "profession",
     "id": "meguca_aqua",
-    "name": "Altus Aqua",
+    "name": "Magical Altus Aqua",
     "description": "The sinners has flooded the world with wretched creatures. Elegant and deadly, wring peace from their defeat! Once more, Altus Aqua, your hands shall bring back law upon these lands!",
     "points": 3,
     "spells": [
@@ -74,7 +74,7 @@
   {
     "type": "profession",
     "id": "meguca_cream",
-    "name": "Crush Cream",
+    "name": "Magical Crush Cream",
     "description": "The cries of the helpless innocent had filled the world for too long! Justice is here! Judgement is here! Crush Cream, Transform!",
     "points": 3,
     "spells": [
@@ -108,9 +108,9 @@
   {
     "type": "profession",
     "id": "guntrick",
-    "name": "Gun Trick",
+    "name": "Magical Gun Trick",
     "description": "The glint of gunmetal in the sun, the narrowed eye as you squint at your next opponents. You may be a bit unorthodox compared to your other compatriots, but you are nonetheless just as effective. ",
-    "points": 3,
+    "points": 5,
     "spells": [
       { "id": "guntrick_ammospecial", "level": 1 },
       { "id": "guntrick_ammofire", "level": 1 },
@@ -123,7 +123,7 @@
     "traits": [ "meguca_guntrick" ],
     "items": {
       "both": {
-        "items": [ "tshirt", "cowboy_hat", "socks", "boots_western", "ZSG", "backpack", "wristwatch", "smart_phone", "medukarepair" ],
+        "items": [ "tshirt", "socks", "boots", "ZSG", "backpack", "wristwatch", "smart_phone", "medukarepair" ],
         "entries": [
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "guntrickponcho", "ammo-item": "45colt_jhp", "charges": 50 },
@@ -137,7 +137,7 @@
   {
     "type": "profession",
     "id": "meguca_panzerritter",
-    "name": "Panzerritter",
+    "name": "Magical Panzerritter",
     "description": "You never did have the head for more flashy magical stuff. Instead you trained with your magic to be able to wear heavier armor without penalty. As if in sympathy to your desire, a shield appeared on your arm, allowing you to store almost anything in it, with the caveat that you still had to carry the weight of all the items you put in it.",
     "points": 3,
     "spells": [ { "id": "altus_aqua_crystal", "level": 1 }, { "id": "meguca_repairplate", "level": 1 } ],
@@ -161,7 +161,8 @@
       { "id": "altus_aqua_crystal", "level": 1 },
       { "id": "meguca_repairplate", "level": 1 },
       { "id": "rr_horsecall", "level": 1 },
-      { "id": "rr_yoke", "level": 1 }
+      { "id": "rr_yoke", "level": 1 },
+      { "id": "rr_feed", "level": 1 }
     ],
     "skills": [ { "level": 3, "name": "spellcraft" }, { "level": 2, "name": "mechanics" }, { "level": 2, "name": "driving" } ],
     "items": {
@@ -175,6 +176,7 @@
           "wristwatch",
           "smart_phone",
           "rideryoke_harness",
+          "magic_feed",
           "magic_bridle",
           "vest_leather",
           "medukarepair"
@@ -189,7 +191,7 @@
     "id": "meguca_dragonslayer",
     "name": "Blast Burgundy",
     "description": "You have dreamt of iron clad heroes all your life. Striving to make one yourself, you even augmented yourself for that moment. But, it was only shortly after the cataclysm happened that you suddenly and fervently starting clashing together parts. As if driven by divine will and pure instincts, you tooled together the Beowulf.",
-    "points": 3,
+    "points": 8,
     "traits": [ "meguca_dragonslayer" ],
     "CBMs": [ "bio_ups", "bio_metabolics", "bio_tools", "bio_power_armor_interface" ],
     "spells": [ { "id": "altus_aqua_crystal", "level": 1 }, { "id": "meguca_repairplate", "level": 1 } ],
@@ -213,7 +215,7 @@
     "id": "meguca_machinemaiden",
     "name": "Machine Maiden Eurydice",
     "description": "You have died, but even when the light faded from your eyes, your feelings have not lessened. In that fleeting darkness however, a sharp thread of light cut through, asking you whether you still wanted to help. The answer was obvious. Soon you awoke in the body of a Machine Maiden, your memories of that red haired woman hazy and fleeting. With your body now of the stronger Machine Maidens, designed to fight in the most hazardous of environments, you have a clear path to follow.",
-    "points": 3,
+    "points": 10,
     "CBMs": [
       "bio_ups",
       "bio_climate",

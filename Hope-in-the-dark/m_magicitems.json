@@ -20,45 +20,55 @@
     "encumbrance": 8,
     "material_thickness": 3,
     "techniques": [ "WBLOCK_2" ],
-    "flags": [ "OVERSIZE", "STURDY", "BELTED", "BLOCK_WHILE_WORN" ]
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Store tool or blade",
+      "holster_msg": "You put your %1$s in your %2$s",
+      "max_volume": "10000 L",
+      "min_volume": "1 ml",
+      "multi": 100,
+      "flags": [ "BELT_CLIP", "SHEATH_KNIFE", "SHEATH_SWORD" ],
+      "skills": [ "smg", "shotgun", "rifle", "launcher", "pistol" ]
+    },
+    "flags": [ "OVERSIZE", "STURDY", "BELTED", "BLOCK_WHILE_WORN", "POWERARMOR_COMPATIBLE" ]
   },
   {
     "id": "magic_bridle",
-    "type": "TOOL",
+    "type": "PET_ARMOR",
     "looks_like": "rope_6",
     "category": "tools",
-    "name": { "str": "magic bridle" },
-    "description": "A golden bridle that seems to reflect sunlight even in total darkness. Tames many a beast, as long as they're not too invested in eating you.",
+    "copy-from": "medium_quadruped_armor",
+    "name": { "str": "magic tack" },
+    "description": "A golden horse tack and saddlebag that seems to reflect sunlight even in total darkness.  If an animal can be ridden, this can let you mount them.",
     "weight": "1500 g",
     "volume": "1 L",
-    "price": 0,
-    "price_postapoc": 0,
-    "to_hit": 1,
-    "bashing": 2,
     "material": [ "meguca_hope" ],
-    "initial_charges": 500,
-    "max_charges": 500,
-    "charges_per_use": 1,
     "symbol": ";",
-    "color": "yellow"
+    "color": "yellow",
+    "storage": "50 L",
+    "flags": [ "TACK" ]
   },
   {
     "id": "magic_feed",
     "type": "COMESTIBLE",
-    "looks_like": "magic_bridle",
     "category": "tools_farming",
     "copy-from": "cattlefodder",
     "name": { "str": "magic horse feed" },
     "use_action": [ "PETFOOD" ],
-    "petfood": [ "CATFOOD", "DINOFOOD_B", "DOGFOOD", "DINOFOOD_A", "CATTLEFOOD", "DINOFOOD_C" ]
+    "petfood": [ "CATFOOD", "DINOFOOD_B", "DOGFOOD", "DINOFOOD_A", "CATTLEFOOD", "DINOFOOD_C" ],
+    "healthy": 0,
+    "quench": 0,
+    "calories": 0,
+    "fun": -15,
+    "flags": [ "INEDIBLE" ]
   },
   {
     "id": "medukarepair",
     "type": "TOOL",
     "category": "tools",
     "name": { "str": "Magical Girl/Boy Repair Kit" },
-    "looks_like": "wine_cabernet",
-    "description": "Despite the grandiose name, it is essentially magic glue you've produced and poured into whatever container you've found around you. Amorphous, it turns to whatever tools you need to repair something. Looks extremely hobocore instead of magical, but with some proficiency in spellcasting, you can repair your magic gears. Might not work for anything else that isn't Magical Girl/Boy related, as this is magic based on pure will and feelings.",
+    "looks_like": "bottle_glass",
+    "description": "Despite the grandiose name, it is essentially magic glue you've produced and poured into whatever container you've found around you. Amorphous, it turns to whatever tools you need to repair something. Looks extremely hobocore instead of magical, but with some proficiency in spellcasting, you can repair your magic gears. It relies on your knowledge of magic to work, as this is magic based on pure will and feelings.",
     "weight": "100 g",
     "volume": "1000 ml",
     "price": 0,
@@ -87,6 +97,9 @@
           "kevlar",
           "neoprene",
           "gutskin",
+          "scute",
+          "black_dragon_hide",
+          "demon_chitin",
           "meguca_alloy",
           "meguca_hope"
         ],
@@ -110,11 +123,27 @@
           "gutskin",
           "plastic",
           "kevlar_rigid",
+          "scute",
+          "black_dragon_hide",
+          "demon_chitin",
           "meguca_alloy",
           "meguca_hope"
         ],
         "skill": "spellcraft",
-        "clothing_mods": [ "leather_padded", "steel_padded", "alloy_padded", "kevlar_padded", "furred", "wooled", "magic_plated" ]
+        "clothing_mods": [
+          "leather_padded",
+          "steel_padded",
+          "alloy_padded",
+          "kevlar_padded",
+          "furred",
+          "wooled",
+          "nomex_padded",
+          "pocketed",
+          "owlbear_furred",
+          "demonchitin_padded",
+          "blackdragon_coated",
+          "magic_plated"
+        ]
       }
     ],
     "flags": [ "ALLOWS_REMOTE_USE" ]

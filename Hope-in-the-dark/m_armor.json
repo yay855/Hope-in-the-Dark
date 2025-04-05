@@ -12,12 +12,13 @@
     "material": [ "meguca_hope" ],
     "symbol": "[",
     "color": "light_gray",
+    "looks_like": "gown",
     "covers": [ "head", "eyes", "mouth", "torso", "arms", "hands", "legs", "feet" ],
     "coverage": 100,
-    "environmental_protection": 25,
+    "environmental_protection": 15,
     "encumbrance": 0,
-    "warmth": 30,
-    "material_thickness": 3,
+    "warmth": 0,
+    "material_thickness": 1,
     "flags": [ "ONLY_ONE", "VARSIZE", "OUTER", "SEMITANGIBLE", "STURDY", "ALLOWS_NATURAL_ATTACKS" ],
     "relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "megucahopebless", "intensity": 1 } ] } ]
@@ -36,12 +37,13 @@
     "material": [ "meguca_hope" ],
     "symbol": "[",
     "color": "light_gray",
+    "looks_like": "army_jacket",
     "covers": [ "head", "eyes", "mouth", "torso", "arms", "hands", "legs", "feet" ],
     "coverage": 100,
-    "environmental_protection": 25,
+    "environmental_protection": 15,
     "encumbrance": 0,
-    "warmth": 30,
-    "material_thickness": 2,
+    "warmth": 0,
+    "material_thickness": 1,
     "flags": [ "ONLY_ONE", "VARSIZE", "OUTER", "SEMITANGIBLE", "STURDY", "ALLOWS_NATURAL_ATTACKS" ],
     "relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "megucacalmbless", "intensity": 1 } ] } ]
@@ -58,14 +60,15 @@
     "price_postapoc": 0,
     "to_hit": 0,
     "material": [ "meguca_hope" ],
+    "looks_like": "leotard",
     "symbol": "[",
     "color": "light_gray",
     "covers": [ "head", "eyes", "mouth", "torso", "arms", "hands", "legs", "feet" ],
     "coverage": 100,
-    "environmental_protection": 25,
+    "environmental_protection": 15,
     "encumbrance": 0,
-    "warmth": 30,
-    "material_thickness": 5,
+    "warmth": 0,
+    "material_thickness": 2,
     "flags": [ "ONLY_ONE", "VARSIZE", "OUTER", "SEMITANGIBLE", "STURDY", "ALLOWS_NATURAL_ATTACKS" ],
     "relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "ench_effects": [ { "effect": "megucafeelingbless", "intensity": 1 } ] } ]
@@ -88,8 +91,8 @@
     "covers": [ "torso", "arms", "hands" ],
     "coverage": 85,
     "encumbrance": 3,
-    "warmth": 30,
-    "material_thickness": 2,
+    "warmth": 0,
+    "material_thickness": 1,
     "environmental_protection": 5,
     "use_action": {
       "type": "bandolier",
@@ -137,7 +140,8 @@
         "shotcanister",
         "shotpaper",
         "762R",
-        "300blk"
+        "300blk",
+        "guntrick_ammo"
       ],
       "draw_cost": 20
     },

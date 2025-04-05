@@ -121,7 +121,7 @@
     "id": "meguca_guntrick",
     "name": { "str": "Gun Trick" },
     "points": 0,
-    "description": "When it comes to problems, you prefer using your guns to deal with them. Magic just makes it easier to solve them.",
+    "description": "When it comes to problems, you prefer using your guns to deal with them. Magic just makes it go faster.",
     "starting_trait": false,
     "armor": [ { "parts": "ALL", "physical": 5 } ],
     "passive_mods": { "dex_mod": 3, "str_mod": 0, "per_mod": 5, "int_mod": 1 }

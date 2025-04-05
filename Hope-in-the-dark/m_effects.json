@@ -37,7 +37,7 @@
     "apply_message": "Your muscles flex as you start using your mana explosively.",
     "remove_message": "Mana fades from your body as you return to normal.",
     "rating": "good",
-    "base_mods": { "int_mod": [ 15 ], "per_mod": [ 20 ], "dex_mod": [ 25 ], "str_mod": [ 45 ], "speed_mod": [ 100 ] }
+    "base_mods": { "int_mod": [ 5 ], "per_mod": [ 10 ], "dex_mod": [ 10 ], "str_mod": [ 15 ], "speed_mod": [ 100 ] }
   },
   {
     "type": "effect_type",
