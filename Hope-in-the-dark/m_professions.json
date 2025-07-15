@@ -161,8 +161,7 @@
       { "id": "altus_aqua_crystal", "level": 1 },
       { "id": "meguca_repairplate", "level": 1 },
       { "id": "rr_horsecall", "level": 1 },
-      { "id": "rr_yoke", "level": 1 },
-      { "id": "rr_feed", "level": 1 }
+      { "id": "rr_yoke", "level": 1 }
     ],
     "skills": [ { "level": 3, "name": "spellcraft" }, { "level": 2, "name": "mechanics" }, { "level": 2, "name": "driving" } ],
     "items": {

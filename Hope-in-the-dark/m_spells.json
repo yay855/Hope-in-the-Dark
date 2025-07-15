@@ -514,7 +514,7 @@
     "id": "rr_yoke",
     "type": "SPELL",
     "name": "Create Magic Yoke",
-    "description": "Creates a magical yoke pulls out the latent strength of an animal. Shows its true potential when a Geist horse is yoked.",
+    "description": "Creates a magical yoke which pulls out the latent strength of an animal. Shows its true potential when a Geist horse is yoked.",
     "valid_targets": [ "self" ],
     "spell_class": "NONE",
     "flags": [ "PERMANENT", "NO_LEGS", "SILENT" ],
