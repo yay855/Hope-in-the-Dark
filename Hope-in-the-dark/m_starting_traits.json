@@ -9,5 +9,15 @@
     "description": "Your magic has awakened, though not manifested in full. Reinforcements and better mana crystal generation is all you can do for now.",
     "starting_trait": true,
     "category": [ "ALPHA", "FELINE", "LUPINE" ]
+  },
+  {
+    "type": "mutation",
+    "id": "Henshin_magic_class",
+    "name": "Henshin!",
+    "points": 0,
+    "description": "Whether by a cute talking animal or a holographic head or just someone else who held the title before you, you have been granted a magical transformation and weapon.",
+    "player_display": false,
+    "purifiable": false,
+    "valid": false
   }
 ]

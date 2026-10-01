@@ -154,7 +154,7 @@
   {
     "type": "profession",
     "id": "meguca_rider",
-    "name": "Red Rider",
+    "name": "Magical Red Rider",
     "description": "Chosen by the Gold Bridle of Bellorophon, you have become the Red Rider, saviour of the meek. With the Geist Horses in the special summonable yokes, you will ride ludicriously huge and heavy chariots to rival even the mightiest tanks.",
     "points": 3,
     "spells": [
@@ -188,7 +188,7 @@
   {
     "type": "profession",
     "id": "meguca_dragonslayer",
-    "name": "Blast Burgundy",
+    "name": "Magical Blast Burgundy",
     "description": "You have dreamt of iron clad heroes all your life. Striving to make one yourself, you even augmented yourself for that moment. But, it was only shortly after the cataclysm happened that you suddenly and fervently starting clashing together parts. As if driven by divine will and pure instincts, you tooled together the Beowulf.",
     "points": 8,
     "traits": [ "meguca_dragonslayer" ],
@@ -212,7 +212,7 @@
   {
     "type": "profession",
     "id": "meguca_machinemaiden",
-    "name": "Machine Maiden Eurydice",
+    "name": "Magical Machine Maiden Eurydice",
     "description": "You have died, but even when the light faded from your eyes, your feelings have not lessened. In that fleeting darkness however, a sharp thread of light cut through, asking you whether you still wanted to help. The answer was obvious. Soon you awoke in the body of a Machine Maiden, your memories of that red haired woman hazy and fleeting. With your body now of the stronger Machine Maidens, designed to fight in the most hazardous of environments, you have a clear path to follow.",
     "points": 10,
     "CBMs": [
